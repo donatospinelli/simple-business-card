@@ -75,3 +75,13 @@ p {
 .contact p {
   font-size: calc(1em + 0.2vw);
 }
+
+.contact b {
+  font-size: calc(1em + 0.2vw);
+}
+
+@media (max-width: 576px) {
+  .contact {
+    left: 0px;
+  }
+}
